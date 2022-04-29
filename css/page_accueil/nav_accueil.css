@@ -1,0 +1,112 @@
+/*bloc englobant le nom + api*/
+#general {
+  display: inline; }
+
+.container {
+  margin-top: 100px;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+/*css de la phrase "Hello + prenom*/
+#prenom {
+  position: fixed;
+  width: 100%;
+  color: #DBB671;
+  font-size: 25px;
+  font-style: italic;
+  top: 105px;
+  left: 10px; }
+
+#ul1 {
+  height: 100%; }
+
+.li1 {
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 150px; }
+
+.lien {
+  text-decoration: none;
+  color: white; }
+  .lien:hover {
+    color: black; }
+
+#ville {
+  text-transform: capitalize; }
+
+#temperature {
+  font-size: 4em; }
+
+#changer {
+  background: #DBB671;
+  cursor: pointer;
+  border-radius: 15px; }
+
+#all_actualites {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px; }
+  #all_actualites p {
+    color: #DBB671;
+    margin-top: 0px;
+    font-size: 40px;
+    font-style: italic; }
+  #all_actualites span {
+    text-align: center;
+    font-size: 25px;
+    color: #DBB671;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 50px; }
+  #all_actualites .sport {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #DBB671; }
+  #all_actualites .medias {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #DBB671; }
+  #all_actualites .social {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #DBB671; }
+
+nav {
+  /*background-color: #DBB671;
+  display: flex;
+  border-bottom: 2px solid black;
+  height: 100px;*/
+  position: fixed;
+  background-color: #DBB671;
+  display: flex;
+  border-bottom: 2px solid black;
+  height: 100px;
+  width: 100%;
+  top: 0; }
+  nav img {
+    height: 100%; }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  nav li {
+    font-size: 15px;
+    color: white;
+    margin-left: 2%; }
+  nav .mon-profil {
+    width: 100%;
+    /*text-align: end;*/
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 5%; }
+    nav .mon-profil button {
+      color: white; }
+
+/*# sourceMappingURL=nav_accueil.css.map */

@@ -1,0 +1,103 @@
+form {
+  position: fixed;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 55px; }
+  form textarea {
+    width: 500px;
+    border-radius: 15px;
+    border-color: #DBB671; }
+    form textarea:active {
+      border-color: #DBB671;
+      color: #DBB671; }
+  form input {
+    border-radius: 10px;
+    background-color: white;
+    color: #DBB671;
+    border: 0.2px solid #5fa3e3;
+    border-color: #DBB671; }
+  form legend {
+    color: #DBB671;
+    font-style: italic;
+    margin-bottom: 0px; }
+
+#position_comm {
+  margin-top: 50px; }
+
+#bloc_message {
+  margin-top: 15px; }
+
+.prenom_user {
+  font-size: 15px;
+  color: #DBB671;
+  font-style: italic;
+  text-align: center;
+  margin-left: 20px; }
+
+.message_user {
+  font-size: 15px;
+  text-align: center;
+  margin-left: 20px; }
+
+/*bloc englobant le nom + api*/
+#general {
+  display: flex;
+  justify-content: center; }
+
+.container {
+  position: absolute; }
+
+/*css de la phrase "Hello + prenom*/
+#prenom {
+  display: flex;
+  width: 100%;
+  color: #DBB671;
+  font-size: 25px;
+  font-style: italic;
+  margin-left: 10px;
+  margin-top: 10px; }
+
+nav {
+  position: fixed;
+  background-color: #DBB671;
+  display: flex;
+  border-bottom: 2px solid black;
+  height: 100px;
+  width: 100%;
+  top: 0; }
+  nav img {
+    height: 100%; }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  nav li {
+    font-size: 15px;
+    color: white;
+    margin-left: 2%; }
+  nav .mon-profil {
+    width: 100%;
+    /*text-align: end;*/
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 5%; }
+    nav .mon-profil button {
+      color: white; }
+
+#ul1 {
+  height: 100%; }
+
+.li1 {
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 150px; }
+
+.lien {
+  text-decoration: none;
+  color: white; }
+  .lien:hover {
+    color: black; }
+
+/*# sourceMappingURL=nav_conv_gen.css.map */
