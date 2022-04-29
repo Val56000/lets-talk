@@ -39,7 +39,7 @@ $userexist = $req->rowCount();
 if($userexist == 1) {
 
   //alors ça me redirige vers l'accueil
-  header("Location: /lets-talk/views/accueil.html");
+  header("Location: /lets-talk/views/accueil.php");
 
 } else {
   header("Location: /lets-talk/views/index.html");
