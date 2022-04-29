@@ -2,6 +2,8 @@ body {
 	background-image: url("/lets-talk/image/logo-nu.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
+	height: 100vh;
 }
 #container {
 	display: flex;
@@ -89,4 +91,10 @@ span {
 	width: 200px;
 	margin-left: 75px;
 	text-align: right;
+}
+
+h1{
+	font-style: italic;
+	color : #DBB671;
+	
 }
