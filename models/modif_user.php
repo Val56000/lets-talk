@@ -47,13 +47,13 @@ $req->execute(array($prenom, $nom, $telephone, $email, $username, $password, $_S
 }
 
 else{
-    echo "echec 1 ";
+    echo "echec 1 !";
 }
 
 }
 
 else{
-    echo "echec 2 ";
+    echo "echec 2 ! ";
 }
 
 
