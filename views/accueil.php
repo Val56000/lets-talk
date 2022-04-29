@@ -9,7 +9,7 @@ session_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/lets-talk/css/page_accueil/accueil.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="/lets-talk/css/page_accueil/nav_accueil.css" media="screen" rel="stylesheet" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <title>Document</title>
@@ -19,15 +19,15 @@ session_start();
 
 
         <nav>
-          <div id="mon-image">
+          
         <img src="/lets-talk/image/logo-unique.jpg" alt="">
-          </div>
+          
           
             <ul id="ul1">
             
-              <li class="li1">Actualités</li>
-              <li class="li1">Canal général</li>
-              <li class="li1">Conversation privée</li>
+              <li class="li1"><a href="#" class="lien"  style="color: black;">Actualités</a></li>
+              <li class="li1"><a href="\lets-talk\views\canal-g.php" class="lien">Canal général</a></li>
+              <li class="li1"><a href="#" class="lien">Divertissements</a></li>
               
                       
                     </ul>
@@ -43,9 +43,9 @@ session_start();
                       Mon profil
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><a class="dropdown-item" href="#">Modifier profil</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li ><a class="dropdown-item" href="index.html">Déconnexion</a></li>
+                      <li><a class="dropdown-item" href="update_profil.php">Modifier profil</a></li>
+                      <li><a class="dropdown-item" href="#" id="sup">Suppression du compte</a></li>
+                      <li ><a class="dropdown-item" href="index.html" >Déconnexion</a></li>
                     </ul>
                   </div>
                   
@@ -104,6 +104,7 @@ require('C:\xampp\htdocs\lets-talk\config\bdd.php');
 $req = $bdd->prepare('SELECT * FROM user WHERE username = ?');
 $req->execute(array($_SESSION['username']));
 
+
 //fetch analyse les entrées une par une jusqu'à trouver la bonne ligne qui sera stockée dans la variable $donnees
 while($donnees = $req->fetch()){
 
@@ -119,7 +120,41 @@ echo "Hello ".$donnees['prenom']."";
 
 
 
+
+
+
+
+<div id="all_actualites">
+  
+<p>Let's Talk News </p>
+<span>Actualités Sport</span>
+<a href="https://www.eurosport.fr/" target="_blank"><img src="..\image\actualite\eurosport.jpg" alt="Eurosport" class="sport"></a>
+<a href="https://www.matchendirect.fr/" target="_blank"><img src="..\image\actualite\match-en-direct.png" alt="Match En Direct" class="sport"></a>
+<a href="https://www.lequipe.fr/" target="_blank"><img src="..\image\actualite\lequipe.png" alt="L'Equipe" class="sport"></a>
+
+
+<span>Actualités Médias</span>
+<a href="https://www.lefigaro.fr/" target="_blank"><img src="..\image\actualite\le-figaro.png" alt="Le Figaro" class="medias"></a>
+<a href="https://www.lemonde.fr/" target="_blank"><img src="..\image\actualite\le-monde.jpg" alt="Le Monde" class="medias"></a>
+<a href="https://www.ouest-france.fr/" target="_blank"><img src="..\image\actualite\ouest-france.png" alt="Ouest France" class="medias"></a>
+<a href="https://www.konbini.com/fr/" target="_blank"><img src="..\image\actualite\konbini.png" alt="Konbini" class="medias"></a>
+<a href="https://www.brut.media/fr/news" target="_blank"><img src="..\image\actualite\brut.png" alt="Brut" class="medias"></a>
+
+<span>Réseaux sociaux</span>
+<a href="https://www.instagram.com/?hl=fr" target="_blank"><img src="..\image\actualite\instagram.jpg" alt="Instagram" class="social"></a>
+<a href="https://twitter.com/?lang=fr" target="_blank"><img src="..\image\actualite\twitter.png" alt="Twitter" class="social"></a>
+
+
+
+</div>
+
+
+
+
+
+
         <script src="/lets-talk/javascript/meteo.js"></script>
+        <script src="/lets-talk/javascript/suppression.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
