@@ -1,0 +1,64 @@
+
+
+/*bloc englobant le nom + api*/
+#general{
+  display: inline;
+  
+}
+
+.container{
+  
+  margin-top: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
+  
+}
+
+/*css de la phrase "Hello + prenom*/
+#prenom{
+  position: fixed;
+  width: 100%;
+  color: #DBB671;
+  font-size: 25px;
+  font-style: italic;
+  top : 105px;
+  left: 10px;
+  
+  
+}
+
+#ul1{
+  height: 100%;
+}
+
+.li1{
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 150px;
+}
+
+.lien{
+  text-decoration: none;
+  color: white;
+  
+  &:hover{
+    color: black;
+  }
+}
+
+#ville {
+  text-transform: capitalize;
+}
+
+
+
+//css API meteo
+#temperature {
+  font-size: 4em;
+}
+
+#changer {
+  background: #DBB671;
+  cursor: pointer;
+  border-radius: 15px;
+}

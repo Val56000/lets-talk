@@ -1,0 +1,54 @@
+//container englobant la totalité du formulaire et ses éléments
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+	
+	
+    
+}
+
+
+//display du form
+#form3 {
+	margin-top: 190px;
+	margin-bottom: 70px;
+	background-color: transparent;
+	z-index: -1;
+}
+form input {
+	display: block;
+	border-radius: 50px;
+	color: rgb(219, 182, 113);
+	border: 0.1px solid rgb(0, 0, 0);
+	opacity: 1;
+	width: 200px;
+    
+}
+
+
+
+
+//style du form
+#formconnexion2 {
+	margin-top: 25px;
+	background-color: white;
+	&:hover {
+		color: white;
+		background-color: #DBB671;
+	}
+}
+
+h1{
+	font-style: italic;
+	color : #DBB671;
+}
+
+
+label {
+	color: rgb(219, 182, 113);
+	text-align: center;
+	margin-bottom: 2px;
+	margin-top: 7px;
+}
