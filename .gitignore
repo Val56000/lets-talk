@@ -1,2 +1,4 @@
 *.map
 /.sass-cache
+/image
+test.php
