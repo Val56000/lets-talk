@@ -27,7 +27,7 @@ include_once 'C:\xampp\htdocs\lets-talk\controllers\my_controllers.php';
             
               <li class="li1"><a href="\lets-talk\views\accueil.php" class="lien" >Actualités</a></li>
               <li class="li1"><a href="#" class="lien"  style="color: black;">Canal général</a></li>
-              <li class="li1"><a href="#" class="lien">Divertissements</a></li>
+              <li class="li1"><a href="divertissement.html" class="lien">Divertissements</a></li>
               
                       
                     </ul>
@@ -58,7 +58,7 @@ include_once 'C:\xampp\htdocs\lets-talk\controllers\my_controllers.php';
         <form action="/lets-talk/models/insert_comm_g.php" method="post">
     
     <legend>Message</legend>
-    <textarea name="message" rows="5" cols="80" type="text" id="area"></textarea>
+    <textarea name="message" rows="5" type="text" id="area" maxlength = "150" style="resize: none"></textarea>
 <input type="submit" value="envoyer">
 </form>
 

@@ -27,7 +27,7 @@ session_start();
             
               <li class="li1"><a href="accueil.php" class="lien">Actualités</a></li>
               <li class="li1"><a href="\lets-talk\views\canal-g.php" class="lien">Canal général</a></li>
-              <li class="li1"><a href="#" class="lien">Divertissements</a></li>
+              <li class="li1"><a href="divertissement.html" class="lien">Divertissements</a></li>
               
                       
                     </ul>
@@ -74,7 +74,7 @@ $donnees = $req->fetch();
 
 <div id="container">
 <form action="/lets-talk/models/modif_user.php" id="form3" method="post" name="form3">
-				<h1>Inscription</h1><label><b>Prenom</b></label> <input name="prenom" value="<?php echo $donnees['prenom'] ?>" required="" type="text"> <label><b>Nom</b></label> <input name="nom" value="<?php echo $donnees['nom'] ?>" required="" type="text"> <label><b>Téléphone</b></label> <input name="telephone" value="<?php echo $donnees['telephone'] ?>" required="" type="text"> <label><b>E-mail</b></label> <input name="email" value="<?php echo $donnees['email'] ?>" required="" type="text"> <label><b>Nom d'utilisateur</b></label> <input name="username" value="<?php echo $donnees['username'] ?>" required="" type="text"> <label><b>Mot de passe</b></label> <input name="password" placeholder="****" required="" type="password"> <label><b>Retaper le mot de passe</b></label> <input name="password2" placeholder="****" required="" type="password"> <input type="submit" value='Modifier' id="formconnexion2"> 
+				<h1>Modif'</h1><label><b>Prenom</b></label> <input name="prenom" value="<?php echo $donnees['prenom'] ?>" required="" type="text"> <label><b>Nom</b></label> <input name="nom" value="<?php echo $donnees['nom'] ?>" required="" type="text"> <label><b>Téléphone</b></label> <input name="telephone" value="<?php echo $donnees['telephone'] ?>" required="" type="text"> <label><b>E-mail</b></label> <input name="email" value="<?php echo $donnees['email'] ?>" required="" type="text"> <label><b>Nom d'utilisateur</b></label> <input name="username" value="<?php echo $donnees['username'] ?>" required="" type="text"> <label><b>Mot de passe</b></label> <input name="password" placeholder="****" required="" type="password"> <label><b>Retaper le mot de passe</b></label> <input name="password2" placeholder="****" required="" type="password"> <input type="submit" value='Modifier' id="formconnexion2"> 
 				
 			</form>
 

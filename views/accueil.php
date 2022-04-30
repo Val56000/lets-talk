@@ -27,7 +27,7 @@ session_start();
             
               <li class="li1"><a href="#" class="lien"  style="color: black;">Actualités</a></li>
               <li class="li1"><a href="\lets-talk\views\canal-g.php" class="lien">Canal général</a></li>
-              <li class="li1"><a href="#" class="lien">Divertissements</a></li>
+              <li class="li1"><a href="divertissement.html" class="lien">Divertissements</a></li>
               
                       
                     </ul>
@@ -45,7 +45,7 @@ session_start();
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                       <li><a class="dropdown-item" href="update_profil.php">Modifier profil</a></li>
                       <li><a class="dropdown-item" href="#" id="sup">Suppression du compte</a></li>
-                      <li ><a class="dropdown-item" href="index.html" >Déconnexion</a></li>
+                      <li><a class="dropdown-item" href="index.html">Déconnexion</a></li>
                     </ul>
                   </div>
                   
@@ -152,9 +152,9 @@ echo "Hello ".$donnees['prenom']."";
 
 
 
-
+<script src="/lets-talk/javascript/suppression.js"></script>
         <script src="/lets-talk/javascript/meteo.js"></script>
-        <script src="/lets-talk/javascript/suppression.js"></script>
+        
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
