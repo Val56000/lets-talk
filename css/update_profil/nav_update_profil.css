@@ -1,4 +1,5 @@
 #container {
+  scrollbar-width: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,8 +8,7 @@
 #form3 {
   margin-top: 190px;
   margin-bottom: 70px;
-  background-color: transparent;
-  z-index: -1; }
+  background-color: transparent; }
 
 form input {
   display: block;
@@ -27,7 +27,8 @@ form input {
 
 h1 {
   font-style: italic;
-  color: #DBB671; }
+  color: #DBB671;
+  text-align: center; }
 
 label {
   color: #dbb671;
