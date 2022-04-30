@@ -2,7 +2,7 @@ form {
   position: fixed;
   width: 200px;
   margin-left: 20px;
-  margin-top: 55px; }
+  top: 120px; }
   form textarea {
     width: 500px;
     border-radius: 15px;
@@ -14,7 +14,7 @@ form {
     border-radius: 10px;
     background-color: white;
     color: #DBB671;
-    border: 0.2px solid #5fa3e3;
+    border: 0.2px solid;
     border-color: #DBB671; }
   form legend {
     color: #DBB671;
@@ -25,7 +25,8 @@ form {
   margin-top: 50px; }
 
 #bloc_message {
-  margin-top: 15px; }
+  margin-top: 15px;
+  /*css de la phrase "Hello + prenom*/ }
 
 .prenom_user {
   font-size: 15px;
@@ -36,24 +37,6 @@ form {
 .message_user {
   font-size: 15px;
   text-align: center; }
-
-/*bloc englobant le nom + api*/
-#general {
-  display: flex;
-  justify-content: center; }
-
-.container {
-  position: absolute; }
-
-/*css de la phrase "Hello + prenom*/
-#prenom {
-  display: flex;
-  width: 100%;
-  color: #DBB671;
-  font-size: 25px;
-  font-style: italic;
-  margin-left: 10px;
-  margin-top: 10px; }
 
 nav {
   position: fixed;

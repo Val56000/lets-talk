@@ -1,11 +1,4 @@
-body{
-  background-image: url("/lets-talk/image/logo-nu.jpg");
-  background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 100%;
 
-}
 
 /*bloc englobant le nom + api*/
 #general{
@@ -24,7 +17,7 @@ height: 100%;
 /*css de la phrase "Hello + prenom*/
 #prenom{
   position: fixed;
-  width: 10%;
+  width: 30%;
   color: #DBB671;
   font-size: 25px;
   font-style: italic;

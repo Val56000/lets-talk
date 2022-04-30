@@ -1,10 +1,10 @@
-body{
-    background-image: url("/lets-talk/image/logo-nu.jpg");
-    background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	height: 100vh;
-}
+// body{
+//     background-image: url("/lets-talk/image/logo-nu.jpg");
+//     background-repeat: no-repeat;
+// 	background-size: cover;
+// 	background-position: center;
+// 	height: 100vh;
+// }
 
 
 #container_hors_nav{
@@ -12,19 +12,13 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-
-}
-
-.boutons{
-    border:0.2px solid black;
-    border-color: #DBB671;
-    border-radius: 50%;
-   //padding : 75px 50px 75px 50px;
-    text-align: center;
-    vertical-align: middle;
-    width: 200px;
-    height: 200px;
-    margin-left: 120px;
-    margin-right: 120px;
     
+
 }
+
+#carouselExampleCaptions{
+    width: 500px;
+}
+
+
+
