@@ -1,47 +1,45 @@
-
-
 /*bloc englobant le nom + api*/
-#general{
+#general {
   display: inline;
-  
+
 }
 
-.container{
-  
+.container {
+
   margin-top: 100px;
   margin-left: 20%;
   margin-right: 20%;
-  
+
 }
 
 /*css de la phrase "Hello + prenom*/
-#prenom{
+#prenom {
   position: fixed;
   width: 30%;
   color: #DBB671;
   font-size: 25px;
   font-style: italic;
-  top : 105px;
+  top: 105px;
   left: 10px;
-  
-  
+
+
 }
 
-#ul1{
+#ul1 {
   height: 100%;
 }
 
-.li1{
+.li1 {
   margin-left: 16px;
   margin-right: 16px;
   width: 150px;
 }
 
-.lien{
+.lien {
   text-decoration: none;
   color: white;
-  
-  &:hover{
+
+  &:hover {
     color: black;
   }
 }

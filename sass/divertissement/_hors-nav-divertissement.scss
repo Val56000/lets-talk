@@ -7,18 +7,19 @@
 // }
 
 
-#container_hors_nav{
+#container_hors_nav {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
+
 
 }
 
-#carouselExampleCaptions{
+#carouselExampleCaptions {
     width: 500px;
 }
 
-
-
+#container {
+    display: none;
+}

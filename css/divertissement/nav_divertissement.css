@@ -7,6 +7,23 @@
 #carouselExampleCaptions {
   width: 500px; }
 
+#container {
+  display: none; }
+
+#instructions {
+  color: white; }
+
+.instruction {
+  padding: 15px;
+  margin: 10px 0; }
+
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  margin-left: 5px;
+  margin-right: 5px; }
+
 nav {
   position: fixed;
   background-color: #DBB671;

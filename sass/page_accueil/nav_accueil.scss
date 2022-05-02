@@ -1,4 +1,3 @@
-
 @import 'hors-nav-accueil';
 @import 'images_actualites';
 
@@ -15,58 +14,59 @@ nav {
     height: 100px;
     width: 100%;
     top: 0;
-    
 
 
-     img{
+
+    img {
         height: 100%;
-        
-  
-    } 
 
-    ul{
+
+    }
+
+    ul {
         list-style-type: none;
         display: flex;
         justify-content: center;
         align-items: center;
-        
-       
-       
-        
+
+
+
+
     }
-    li{
+
+    li {
         font-size: 15px;
         color: white;
         margin-left: 2%;
-       
-        
+
+
     }
 
 
 
 
 
-   
-    .mon-profil{
+
+    .mon-profil {
         width: 100%;
         /*text-align: end;*/
         display: flex;
         justify-content: end;
         align-items: center;
-        
+
         margin-right: 5%;
-        button{
+
+        button {
             color: white;
-            
+
         }
-       
-        
+
+
     }
 
 
 
 }
-
 
 
 

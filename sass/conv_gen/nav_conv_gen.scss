@@ -3,55 +3,57 @@
 
 nav {
   position: fixed;
-    background-color: #DBB671;
-    display: flex;
-    border-bottom: 2px solid black;
-    height: 100px;
-    width: 100%;
-    top: 0;
+  background-color: #DBB671;
+  display: flex;
+  border-bottom: 2px solid black;
+  height: 100px;
+  width: 100%;
+  top: 0;
 
 
-     img{
-        height: 100%;
-        
-  
-    } 
+  img {
+    height: 100%;
 
-    ul{
-        list-style-type: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-       
-       
-        
-    }
-    li{
-        font-size: 15px;
-        color: white;
-        margin-left: 2%;
-       
-        
-    }
-   
 
-    .mon-profil{
-      width: 100%;
-      /*text-align: end;*/
-      display: flex;
-      justify-content: end;
-      align-items: center;
-      
-      margin-right: 5%;
-      button{
-          color: white;
-          
-      }
-     
-      
   }
-    
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+  }
+
+  li {
+    font-size: 15px;
+    color: white;
+    margin-left: 2%;
+
+
+  }
+
+
+  .mon-profil {
+    width: 100%;
+    /*text-align: end;*/
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    margin-right: 5%;
+
+    button {
+      color: white;
+
+    }
+
+
+  }
+
 }
 
 

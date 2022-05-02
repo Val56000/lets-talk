@@ -5,6 +5,7 @@ body {
 	background-position: center;
 	height: 100vh;
 }
+
 #container {
 	display: flex;
 	flex-wrap: wrap;
@@ -13,28 +14,34 @@ body {
 	height: 100vh;
 	flex-direction: column;
 }
+
 #logo-unique {
 	width: 400px;
 	position: absolute;
 }
-#bouton1, #bouton2 {
+
+#bouton1,
+#bouton2 {
 	width: 150px;
 	height: 50px;
 	margin-top: 15px;
 	border-radius: 10px;
 	background-color: #FBFAF8;
 	color: #DBB671;
+
 	&:hover {
 		background-color: #DBB671;
 		color: #FBFAF8;
 	}
 }
+
 #container2 {
 	display: flex;
 	flex-direction: column;
 	position: relative;
 	margin-top: 300px;
 }
+
 /*formulaire de connexion*/
 
 #form1 {
@@ -43,6 +50,7 @@ body {
 	margin-top: 350px;
 	background-color: #FBFAF8;
 }
+
 /*formulaire d'inscription*/
 
 #form2 {
@@ -51,6 +59,7 @@ body {
 	margin-top: 100px;
 	background-color: #FBFAF8;
 }
+
 form input {
 	display: block;
 	border-radius: 50px;
@@ -59,33 +68,39 @@ form input {
 	opacity: 1;
 	width: 200px;
 }
+
 /*submit du formulaire de connexion*/
 
 #formconnexion {
 	margin-top: 25px;
 	width: 200px;
 	background-color: white;
+
 	&:hover {
 		color: white;
 		background-color: #DBB671;
 	}
 }
+
 /*submit du formulaire d'inscription*/
 
 #formconnexion2 {
 	margin-top: 25px;
 	background-color: white;
+
 	&:hover {
 		color: white;
 		background-color: #DBB671;
 	}
 }
+
 label {
 	color: rgb(219, 182, 113);
 	text-align: center;
 	margin-bottom: 2px;
 	margin-top: 7px;
 }
+
 span {
 	cursor: pointer;
 	width: 200px;
@@ -93,9 +108,9 @@ span {
 	text-align: right;
 }
 
-h1{
+h1 {
 	font-style: italic;
-	color : #DBB671;
+	color: #DBB671;
 	text-align: center;
-	
+
 }

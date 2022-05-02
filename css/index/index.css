@@ -17,14 +17,16 @@ body {
   width: 400px;
   position: absolute; }
 
-#bouton1, #bouton2 {
+#bouton1,
+#bouton2 {
   width: 150px;
   height: 50px;
   margin-top: 15px;
   border-radius: 10px;
   background-color: #FBFAF8;
   color: #DBB671; }
-  #bouton1:hover, #bouton2:hover {
+  #bouton1:hover,
+  #bouton2:hover {
     background-color: #DBB671;
     color: #FBFAF8; }
 

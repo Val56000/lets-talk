@@ -4,65 +4,63 @@ form {
     margin-left: 20px;
     //margin-top: 55px;
     top: 120px;
-    
-textarea{
-    width: 500px;
-    border-radius: 15px;
-    border-color: #DBB671;
-    &:active{
+
+    textarea {
+        width: 500px;
+        border-radius: 15px;
         border-color: #DBB671;
-        color: #DBB671;
+
+        &:active {
+            border-color: #DBB671;
+            color: #DBB671;
+        }
+
+
     }
 
-    
-}
+    input {
+        border-radius: 10px;
+        background-color: white;
+        color: #DBB671;
+        border: 0.2px solid;
+        border-color: #DBB671;
 
-input {
-    border-radius: 10px;
-    background-color: white;
-    color: #DBB671;
-    border: 0.2px solid;
-    border-color: #DBB671;
-    
-}
-legend{
-    color: #DBB671;
-    font-style: italic;
-    margin-bottom: 0px;
-    
-}
-    
+    }
+
+    legend {
+        color: #DBB671;
+        font-style: italic;
+        margin-bottom: 0px;
+
+    }
+
 }
 
 
 
-#position_comm{
+#position_comm {
     margin-top: 50px;
-    
-    
+
+
 }
 
-#bloc_message{
+.bloc_message {
     margin-top: 15px;
-    /*css de la phrase "Hello + prenom*/
-    
-    
 }
 
 
 
 //css des classes .prenom_user & .message_user
-.prenom_user{
+.prenom_user {
     font-size: 15px;
     color: #DBB671;
     font-style: italic;
     text-align: center;
-    
+
 }
 
-.message_user{
+.message_user {
     font-size: 15px;
-    text-align: center; 
-   
-}
+    text-align: center;
 
+}

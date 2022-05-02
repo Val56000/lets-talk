@@ -24,9 +24,8 @@ form {
 #position_comm {
   margin-top: 50px; }
 
-#bloc_message {
-  margin-top: 15px;
-  /*css de la phrase "Hello + prenom*/ }
+.bloc_message {
+  margin-top: 15px; }
 
 .prenom_user {
   font-size: 15px;
