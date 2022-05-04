@@ -72,7 +72,7 @@ include_once 'C:\xampp\htdocs\lets-talk\controllers\my_controllers.php';
 <div id="position_comm">
   <?php
 foreach ($getAllCommentaires as $index => $comm){ 
-  echo '<div id="bloc_message">';
+echo '<div class="bloc_message">';
   echo '<div class="prenom_user">'.$comm['prenom'].'</div>';
   echo '<div class="message_user">'.$comm['commentaires_g'].'</div>';
   echo '</div>';
