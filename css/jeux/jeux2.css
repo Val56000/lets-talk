@@ -1,0 +1,70 @@
+nav {
+  position: fixed;
+  background-color: #DBB671;
+  display: flex;
+  border-bottom: 2px solid black;
+  height: 100px;
+  width: 100%;
+  top: 0; }
+  nav img {
+    height: 100%; }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  nav li {
+    font-size: 15px;
+    color: white;
+    margin-left: 2%; }
+  nav .mon-profil {
+    width: 100%;
+    /*text-align: end;*/
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 5%; }
+    nav .mon-profil button {
+      color: white; }
+
+#ul1 {
+  height: 100%; }
+
+.li1 {
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 150px; }
+
+.lien {
+  text-decoration: none;
+  color: white; }
+  .lien:hover {
+    color: black; }
+
+.container {
+  position: relative;
+  top: 300px; }
+
+#citation {
+  font-size: 2em;
+  font-family: 'Satisfy', curve;
+  line-height: 1.3em;
+  letter-spacing: 1px; }
+
+#citation:before {
+  content: open-quote; }
+
+#citation:after {
+  content: close-quote; }
+
+#auteur {
+  font-size: 1.5em;
+  font-style: italic; }
+
+#nouveau {
+  background: #DBB671;
+  background: -webkit-linear-gradient(to right, #DBB671, #ff9966);
+  background: linear-gradient(to right, #DBB671, #ff9966);
+  cursor: pointer; }
+
+/*# sourceMappingURL=jeux2.css.map */
