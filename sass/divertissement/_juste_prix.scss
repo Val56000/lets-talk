@@ -20,3 +20,26 @@
 
 
 }
+
+a {
+  text-decoration: none;
+  color:  white ;
+}
+
+
+.titre_jeux{
+  text-decoration: none;
+  color:  white ;
+  &:hover{
+    color: black;
+  }
+}
+
+.description_jeux{
+  text-decoration: none;
+  color:  white ;
+  &:hover{
+    color: black;
+  }
+}
+

@@ -7,9 +7,6 @@
 #carouselExampleCaptions {
   width: 500px; }
 
-#container {
-  display: none; }
-
 #instructions {
   color: white; }
 
@@ -23,6 +20,22 @@
   width: 100px;
   margin-left: 5px;
   margin-right: 5px; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+.titre_jeux {
+  text-decoration: none;
+  color: white; }
+  .titre_jeux:hover {
+    color: black; }
+
+.description_jeux {
+  text-decoration: none;
+  color: white; }
+  .description_jeux:hover {
+    color: black; }
 
 nav {
   position: fixed;

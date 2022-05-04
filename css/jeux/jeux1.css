@@ -1,3 +1,105 @@
+nav {
+  position: fixed;
+  background-color: #DBB671;
+  display: flex;
+  border-bottom: 2px solid black;
+  height: 100px;
+  width: 100%;
+  top: 0; }
+  nav img {
+    height: 100%; }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  nav li {
+    font-size: 15px;
+    color: white;
+    margin-left: 2%; }
+  nav .mon-profil {
+    width: 100%;
+    /*text-align: end;*/
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 5%; }
+    nav .mon-profil button {
+      color: white; }
 
+#ul1 {
+  height: 100%; }
+
+.li1 {
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 150px; }
+
+.lien {
+  text-decoration: none;
+  color: white; }
+  .lien:hover {
+    color: black; }
+
+header {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  left: 0;
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  color: #DBB671; }
+
+.container {
+  position: fixed;
+  top: 200px;
+  right: 0;
+  left: 0; }
+
+.class_para {
+  width: 350px;
+  margin: auto;
+  text-align: center; }
+
+#instructions {
+  color: white; }
+
+.instruction {
+  padding: 15px;
+  margin: 10px 0; }
+
+#bout {
+  color: white;
+  background-color: #DBB671;
+  width: 150px;
+  border-radius: 5%;
+  top: 120px;
+  left: 0;
+  position: absolute; }
+  #bout:hover {
+    color: #DBB671;
+    background-color: white; }
+
+#boubou {
+  color: white;
+  background-color: #DBB671;
+  width: 150px;
+  border-radius: 5%;
+  position: absolute;
+  left: 0px;
+  top: 180px; }
+  #boubou:hover {
+    color: #DBB671;
+    background-color: white; }
+
+#cadre {
+  background-color: #DBB671 !important;
+  border-radius: 50px;
+  height: 130px !important; }
+
+small {
+  font-size: 20px !important;
+  font-style: italic; }
 
 /*# sourceMappingURL=jeux1.css.map */
