@@ -14,6 +14,8 @@ nav {
 
   img {
     height: 100%;
+
+
   }
 
   ul {
@@ -21,12 +23,18 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+
+
+
+
   }
 
   li {
     font-size: 15px;
     color: white;
     margin-left: 2%;
+
+
   }
 
 
@@ -56,22 +64,22 @@ nav {
 
 
 
-
-#ul1 {
-  height: 100%;
-}
-
-.li1 {
-  margin-left: 16px;
-  margin-right: 16px;
-  width: 150px;
-}
-
-.lien {
-  text-decoration: none;
-  color: white;
-
-  &:hover {
-    color: black;
+  
+  #ul1{
+    height: 100%;
   }
-}
+  
+  .li1{
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 150px;
+  }
+  
+  .lien{
+    text-decoration: none;
+    color: white;
+    
+    &:hover{
+      color: black;
+    }
+  }
