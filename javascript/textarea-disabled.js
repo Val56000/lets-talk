@@ -2,7 +2,6 @@
 
 let textarea = document.querySelector('textarea');
 let submit1 = document.querySelector('#envoyer');
-let types= (textarea.value);
 
 submit1.disabled = true;
 textarea.addEventListener('keyup', () =>{
@@ -15,4 +14,3 @@ submit1.disabled = false;
         submit1.disabled = true;
     }
 });
-
