@@ -60,3 +60,30 @@
   cursor: pointer;
   border-radius: 15px;
 }
+
+
+
+//bloc div du bouton de retour
+#bloc-btn{
+text-align: center;
+
+//bouton de retour
+#bouton_retour{
+
+text-align: center;
+  background-color: #DBB671;
+  border-radius: 15px;
+  border-width: 0.2px;
+  border-color: black;
+  color: white;
+  font-size: 17px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  &:hover{
+    background-color: white;
+    color: #DBB671;
+  }
+}
+}

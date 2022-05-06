@@ -42,39 +42,66 @@
   cursor: pointer;
   border-radius: 15px; }
 
+#bloc-btn {
+  text-align: center; }
+  #bloc-btn #bouton_retour {
+    text-align: center;
+    background-color: #DBB671;
+    border-radius: 15px;
+    border-width: 0.2px;
+    border-color: black;
+    color: white;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+    margin-top: 20px; }
+    #bloc-btn #bouton_retour:hover {
+      background-color: white;
+      color: #DBB671; }
+
 #all_actualites {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin-top: 100px; }
-  #all_actualites p {
-    color: #DBB671;
-    margin-top: 0px;
-    font-size: 40px;
-    font-style: italic; }
-  #all_actualites span {
+  margin-top: 10px; }
+  #all_actualites .sport {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #DBB671;
+    display: block; }
+  #all_actualites .medias {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #DBB671;
+    display: block; }
+  #all_actualites .social {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #DBB671;
+    display: block; }
+
+p {
+  color: #DBB671;
+  margin-top: 150px !important;
+  font-size: 40px;
+  font-style: italic;
+  text-align: center; }
+
+#spans {
+  display: flex;
+  justify-content: center; }
+  #spans span {
     text-align: center;
     font-size: 25px;
     color: #DBB671;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    margin-top: 50px; }
-  #all_actualites .sport {
-    width: 200px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 3px solid #DBB671; }
-  #all_actualites .medias {
-    width: 200px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 3px solid #DBB671; }
-  #all_actualites .social {
-    width: 200px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 3px solid #DBB671; }
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px; }
 
 nav {
   /*background-color: #DBB671;

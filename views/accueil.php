@@ -122,39 +122,50 @@ echo "Hello ".$donnees['prenom']."";
 
 
 
+<p>Let's Talk News </p>
 
+<div id="spans">
+<span>Actualités Sport</span>
+<span>Actualités Médias</span>
+<span>Réseaux sociaux</span>
+</div>
 
 <div id="all_actualites">
   
-<p>Let's Talk News </p>
-<span>Actualités Sport</span>
+
+
+<div id="sport">
 <a href="https://www.eurosport.fr/" target="_blank"><img src="..\image\actualite\eurosport.jpg" alt="Eurosport" class="sport"></a>
 <a href="https://www.matchendirect.fr/" target="_blank"><img src="..\image\actualite\match-en-direct.png" alt="Match En Direct" class="sport"></a>
 <a href="https://www.lequipe.fr/" target="_blank"><img src="..\image\actualite\lequipe.png" alt="L'Equipe" class="sport"></a>
+</div>
 
 
-<span>Actualités Médias</span>
+<div id="medias">
 <a href="https://www.lefigaro.fr/" target="_blank"><img src="..\image\actualite\le-figaro.png" alt="Le Figaro" class="medias"></a>
 <a href="https://www.lemonde.fr/" target="_blank"><img src="..\image\actualite\le-monde.jpg" alt="Le Monde" class="medias"></a>
 <a href="https://www.ouest-france.fr/" target="_blank"><img src="..\image\actualite\ouest-france.png" alt="Ouest France" class="medias"></a>
 <a href="https://www.konbini.com/fr/" target="_blank"><img src="..\image\actualite\konbini.png" alt="Konbini" class="medias"></a>
 <a href="https://www.brut.media/fr/news" target="_blank"><img src="..\image\actualite\brut.png" alt="Brut" class="medias"></a>
+</div>
 
-<span>Réseaux sociaux</span>
+
+<div id="social">
 <a href="https://www.instagram.com/?hl=fr" target="_blank"><img src="..\image\actualite\instagram.jpg" alt="Instagram" class="social"></a>
 <a href="https://twitter.com/?lang=fr" target="_blank"><img src="..\image\actualite\twitter.png" alt="Twitter" class="social"></a>
-
+</div>
 
 
 </div>
 
+<div id="bloc-btn">
+<button id="bouton_retour">Retour</button>
+</div>
 
 
-
-
-<script src="/lets-talk/javascript/suppression.js"></script>
+        <script src="/lets-talk/javascript/accueil.js"></script>
+        <script src="/lets-talk/javascript/suppression.js"></script>
         <script src="/lets-talk/javascript/meteo.js"></script>
-        
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
